@@ -1,0 +1,10 @@
+{
+    "linters": {
+        "phpcs": {
+            "@disable": true
+        },
+        "htmltidy": {
+            "@disable": true
+        }
+    }
+}

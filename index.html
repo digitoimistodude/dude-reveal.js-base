@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Duden reveal.js-pohja</title>
+
+		<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+		<link rel="manifest" href="favicons/manifest.json">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/dude.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+
+<div class="reveal">
+			<div class="slides">
+				<!-- Cover -->
+				<section class="cover" data-markdown>
+					<script type="text/template">
+						# The road to bespoke websites - a tale of a digital web agency
+						### Roni Laukkarinen, Timi Wahalahti, Digitoimisto Dude Oy
+
+						Tampere WordPress Meetup, 9.11.2017<br><br>
+						<small>Use spacebar or arrows to navigate</small> <!-- .element: class="text-small" -->
+					</script>
+				</section>
+
+				<!-- Speaker introduction -->
+				<section class="introduction speaker" data-markdown data-separator-notes="^Note:" data-background-image="img/dudekset.jpg">
+					<script type="text/template">
+						## Digitoimisto Dude Oy
+
+						<ul class="fragment" data-fragment-index="1">
+							<li>Based strictly in Jyväskylä</li>
+							<li>Formed <em>in the spring of 2013</em></li>
+							<li>4 dudes <em>(2 graphic designers, 2 developers)</em></li>
+							<li>Flexibility and quality in customer service, code, tools and meaningful designs matter</li>
+							<li>Self-financed</li>
+						</ul>
+
+					</script>
+				</section>
+
+				<!-- History -->
+				<section class="history" data-markdown data-separator-notes="^Note:">
+					<script type="text/template">
+						## History
+
+						<ul>
+							<li>Something something</li>
+							<li>Something else</li>
+						</ul>
+
+					</script>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
