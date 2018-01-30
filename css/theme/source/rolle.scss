@@ -53,6 +53,43 @@ html.dimbg {
     }
   }
 
+  li.keys-li {
+    margin-top: -3.2rem;
+  }
+
+  .keys {
+    position: relative;
+    width: 106px;
+    height: 60px;
+    display: inline-block;
+    top: 20px;
+
+    kbd {
+      font-size: 1.5rem;
+      position: absolute;
+    }
+
+    .left {
+      bottom: 0;
+      left: 0;
+    }
+
+    .up {
+      top: 0;
+      left: 35px;
+    }
+
+    .right {
+      right: 0;
+      bottom: 0;
+    }
+
+    .down {
+      left: 35px;
+      bottom: 0;
+    }
+  }
+
   .video-container {
     background: transparent;
     overflow: hidden;
