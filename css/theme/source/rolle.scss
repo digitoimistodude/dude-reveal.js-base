@@ -220,3 +220,17 @@ section.video-section {
   top: 0;
   left: 0;
 }
+
+.reveal .hashtag h4 {
+  margin: 0;
+}
+
+.hashtag a {
+  opacity: .3;
+  color: #fff;
+
+  &:hover {
+    opacity: 1;
+    color: #fff;
+  }
+}
