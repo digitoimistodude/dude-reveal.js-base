@@ -239,3 +239,36 @@ section.video-section {
   background: #111;
   z-index: 999999999;
 }
+
+.boxes.boxes-two {
+  display: flex;
+  margin-top: 4rem;
+}
+
+.reveal .boxes.boxes-two .box {
+  width: 40%;
+  background: #2c3d4e;
+  padding: 5rem;
+  text-align: left;
+
+  h3 {
+    font-size: 3rem;
+  }
+
+  h4 {
+    font-size: 2rem;
+  }
+
+  ul li {
+    font-size: 2.2rem;
+  }
+
+  &:nth-child(1) {
+    margin-right: 4rem;
+  }
+
+  ul,
+  li {
+    line-height: 1.55;
+  }
+}
