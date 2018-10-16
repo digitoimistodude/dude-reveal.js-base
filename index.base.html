@@ -74,9 +74,10 @@
             - 1: Pahimmillaan isäntäteeman alle lapsiteeman kehittämisellä tai valmisteemoista tuunaamalla sivusto räjähtää useammin
             - 1: Muiden teemojen koodisisältöä on vaikea arvioida
             - (paina nuolta), 2: Kaikki teemat eivät sovi kaikkeen, etenkään "multipurpose"-teemat vaikka niin kovasti mainostavatkin
-            - 2: Omalla räätälöidyllä teemalla saa aikaan just mitä pitääkin, eikä mitään turhaa
-            - (paina nuolta), 3: Omassa teemassa (toivottavasti) tulee vähemmän jatkokehitettävää kun koodi on omissa näpeissä
-            - 3: Hommat ei hajoa lisäosapäivityksiin yms. (jos teema vaikka tukeutuu överisti niihin)
+            - (paina nuolta), 2: Omalla räätälöidyllä teemalla saa aikaan just mitä pitääkin, eikä mitään turhaa
+            - (paina nuolta), 3. Esimerkiksi esteettömyys on asia, jota on nihkeä kehittää jälkikäteen, tukeutuu niin paljon siihen miten sivusto on ylipäätään rakennettu
+            - 3. Parempi testata suoraan.
+            - (paina nuolta), 4. Helpompi jatkokehittää
             - (paina nuolta), 5: On kivempi lisätä juttuja kuin karsia niitä
 
           </script>
@@ -94,8 +95,9 @@
             </ul>
 
             Notes:
-            - Omassa teemassa (toivottavasti) tulee vähemmän jatkokehitettävää kun koodi on omissa näpeissä
-            - Hommat ei hajoa lisäosapäivityksiin yms. (jos teema vaikka tukeutuu överisti niihin)
+            - Underscores on ehkä käytetyin teema, mutta ei juurikaan sisällä tyylejä/CSS-pohjaa ("frameworkia"), eli valkoinen sivu josta työstämään, liian "tyhjä taulu"
+            - Understrap on ikäänkuin Bootstrapin ja underscoresin yhdistelmä. Jos bootstrapista tykkää, miksei, mutta itse koen senkin jo vähän turhan painavana, sama juttu Foundationin kanssa
+            - Air on meidän tekemä ja aucor-starter turkulaisen digitoimiston Aucorin vastaava, joka myös avointa lähdekoodia. Näissä lähtökohtana niin hyvä HTML/PHP-rakennekin kuin CSS-pohja starttia varten
           </script>
         </section>
 
@@ -111,7 +113,10 @@
             </ul>
 
             Notes:
-            - 
+            - Viime vuosina on pyörinyt joitakin vähän monimutkaisempiakin teemoja
+            - Rootsin Sage yksi vanhimpia
+            - En tiedä onko "moderni" väärä sana, mutta kerron kohta lisää
+            - (Siirry seuraavaan koska siinä kysytään eroja)
           </script>
         </section>  
 
@@ -128,6 +133,7 @@
             <img style="max-width: 900px; transform: translateY(-20px);" src="img/sage.png" alt="Sage" />
 
             Notes:
+            - Rootsin Sage on ehkä ensimmäisiä moderneja
           </script>
         </section>
 
@@ -138,6 +144,9 @@
             <img style="max-width: 900px; transform: translateY(-20px);" src="img/tonik.png" alt="Tonik" />
 
             Notes:
+            - Tonik, Mythic ja esim. Dustpress kaikki koittavat uudistaa koko teemanrakennus-workflowta
+            - Eli teeman lisäksi on uusia työkaluja ja templating engineitä, esim. blade jolla kirjoitetaan ihan uudenlaista PHP:ta
+            - Sopii ohjelmoijaluonteille ja kikkailunhaluisille
           </script>
         </section>
 
@@ -148,6 +157,9 @@
             <img style="max-width: 900px; transform: translateY(-20px);" src="img/perinteiset-teemat.png" alt="Perinteiset starter-teemat, aucor-starter ja air-light" />
 
             Notes:
+            - Itse fanitan perinteisiä starttereita (jonka pohjalta myös oma tehty) koska tuetaan tuttua kaavaa johon WordPressin 15-vuotinen suosiokin perustuu
+            - Ei tarvitse oikeastaan kuin aktivoida ja lähteä tekemään
+            - Gulpeja yms. ei ole pakko käyttää, mutta ne helpottavat elämää huomattavasti
           </script>
         </section>
 
@@ -160,13 +172,14 @@
 
             <ul>
               <li class="fragment">Taaksepäinyhteensopivuus WordPress-versioiden kanssa</li>
-              <li class="fragment">Hyvät käytännöt
-              <li class="fragment">Luettava koodi
-              <li class="fragment">Helppo omaksuttavuus
-              <li class="fragment">Avoin lähdekoodi ja vertaistuki
+              <li class="fragment">Hyvät käytännöt</li>
+              <li class="fragment">Luettava koodi</li>
+              <li class="fragment">Helppo omaksuttavuus</li>
+              <li class="fragment">Avoin lähdekoodi ja vertaistuki</li>
             </ul>
 
             Notes:
+            - WordPressillä on olemassa omat standardit, jotka pyrkivät pitämään koodin yhdenmukaisena
           </script>
         </section>
 
@@ -175,12 +188,20 @@
             <img src="img/phpcs.png" alt="PHPcs-esimerkki" />
 
             Notes:
+            - Lintterit ovat parasta nykyaikana
+            - Kertoo heti missä mokaa, tulee vähemmän virheitä
+            - Voi myös asettaa omia poikkeuksia jos ei tykkää natsimeiningistä
+            - Oppii koodaamaan "WordPressin tavoin"
           </script>
         </section>
 
-        <section data-background-image="img/juggler.gif" data-state="dimbg" data-markdown>
+        <section data-background-image="img/juggler.gif" data-state="dimbg" data-markdown data-separator-notes="^Notes:">
           <script type="text/template">
             ## Joustava sisältö?
+
+            Notes:
+            - Nykyiaikainen teema on kenen tahansa helposti päivitettävissä
+            - Kun teet teemaa ei-tekniselle ihmiselle, kovakoodausta tulee välttää
           </script>
         </section>
 
@@ -193,6 +214,9 @@
             <img src="img/gutenberg.gif" alt="Gutenberg" /> 
 
             Notes:
+            - "Uudehko" lisäosa, jolla saa nykyään aikaan melko modulaarista sisältöä blokkien avulla
+            - Ei välttämättä teknisimmille toteutuksille, mutta hyvä esim. verkkolehdille ja blogeille
+            - Kuinka moni yleisöstä käyttää Gutenbergiä tuotannossa?
           </script>
         </section>
 
@@ -205,6 +229,8 @@
             <img src="img/acf.gif" alt="ACF" /> 
 
             Notes:
+            - ACF lienee suosituin tapa tehdä räätälöityjä ja joustavia saitteja
+            - Kuinka moni yleisöstä käyttää ACF:ää tuotannossa?            
           </script>
         </section>
 
@@ -217,6 +243,8 @@
             <img src="img/acf-gutenberg-tweet.png" alt="ACF + Gutenberg" /> 
 
             Notes:
+            - EILEN, eli 15.10. ACF julkaisi tuen Gutenbergille, eli nyt voi hyötykäyttää molempia
+            - En ole testannut, mutta varteenotettava vaihtoehto
           </script>
         </section>
 
@@ -249,6 +277,13 @@
             </div>
 
             Notes:
+            - Merkityksellisintä teemakehityksessä on kehitysympäristö ja työkalut, mutta en lähde niitä tässä enempää avaamaan
+            - Linkit löytyy slidestä
+            - Local by Flywheelin saa myös Windowsille, mutta suosittelen Maccia devaamiseen
+            - Underscoresissa on suorat ohjeet miten search ja replace toimii, mutta heillä on myös nettisivuilla helppokäyttöinen teemanlatain, johon voi laittaa haluamansa nimen ja teema nimetään sen mukaisesti
+            - Textdomain "nimeää" teeman ja sen kaikki ominaisuudet ja stringit niin että ne on käännettäviä ja uniikkeja
+            - Ehdottoman tärkeää kun lähtee tekemään omaa räätälöityä teemaa, ettei esim. päivitykset yliaja teemaa
+            - Prefix everything!
           </script>
         </section>
 
