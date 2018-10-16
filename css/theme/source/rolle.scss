@@ -234,3 +234,8 @@ section.video-section {
     color: #fff;
   }
 }
+
+.reveal .pause-overlay {
+  background: #111;
+  z-index: 999999999;
+}
