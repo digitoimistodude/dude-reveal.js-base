@@ -28,7 +28,7 @@ FILE PATHS
 
 var themeDir = 'css/theme';
 var sassSrc = themeDir + '/source/*.{sass,scss}';
-var sassFile = themeDir + '/source/rolle.scss';
+var sassFile = themeDir + '/source/dude-2019.scss';
 var cssDest = themeDir;
 
 /*
