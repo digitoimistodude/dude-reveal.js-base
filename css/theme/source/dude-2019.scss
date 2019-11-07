@@ -19,16 +19,16 @@ $mainColor: #dee0e1;
 $headingColor: #fff;
 $headingTextShadow: none;
 $headingTextTransform: none;
-$backgroundColor: #16202a;
+$backgroundColor: #050505;
 $linkColor: #fff;
 $linkColorHover: #606c76;
 $selectionBackgroundColor: rgba(0, 0, 0, .99);
-$heading1Size: 6.8rem;
-$heading2Size: 4.8rem;
+$heading1Size: 7.8rem;
+$heading2Size: 5.8rem;
 $heading3Size: 3.4rem;
 $heading4Size: 2.4rem;
 $headingTextTransform: none;
-$headingFontWeight: 700;
+$headingFontWeight: 300;
 $mainFontSize: 30px;
 
 // Theme template ------------------------------
@@ -38,7 +38,7 @@ $mainFontSize: 30px;
 // Dimmed bg style hack
 html.dimbg {
   .reveal .slide-background {
-    opacity: .3;
+    opacity: .4;
   }
 }
 
@@ -193,11 +193,15 @@ html.dimbg {
 
     h1 {
       color: #fff;
+      line-height: 1;
     }
   }
 
-  p {
-    font-weight: 500;
+  p,
+  li,
+  span,
+  * {
+    font-weight: 300;
   }
 
   .cover {
@@ -260,15 +264,35 @@ section.video-section {
   }
 
   ul li {
-    font-size: 2.2rem;
+    font-size: 2rem;
+    padding-left: 0;
+  }
+
+  li a {
+    display: block;
+  }
+
+  li {
+    margin-bottom: 15px;
+  }
+
+  li:last-child {
+    margin-bottom: 0;
   }
 
   &:nth-child(1) {
     margin-right: 4rem;
   }
 
+  ul {
+    padding-left: 17px;
+  }
+
   ul,
   li {
     line-height: 1.55;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
   }
 }
