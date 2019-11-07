@@ -1,3 +1,11 @@
+# reveal.js base for Dude presentations
+
+![reveal.js 3.8.0](https://img.shields.io/badge/reveal.js_3.8.0-green.svg?style=flat-square)
+
+This is a [reveal.js](https://github.com/hakimel/reveal.js) fork for presentation purposes here at Dude.
+
+![Screenshot](https://i.imgur.com/5rF8GXz.png)
+
 # reveal.js [![Build Status](https://travis-ci.org/hakimel/reveal.js.svg?branch=master)](https://travis-ci.org/hakimel/reveal.js) <a href="https://slides.com?ref=github"><img src="https://s3.amazonaws.com/static.slid.es/images/slides-github-banner-320x40.png?1" alt="Slides" width="160" height="20"></a>
 
 A framework for easily creating beautiful presentations using HTML. [Check out the live demo](http://revealjs.com/).
