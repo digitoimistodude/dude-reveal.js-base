@@ -28,7 +28,7 @@ FILE PATHS
 
 var themeDir = 'css/theme';
 var sassSrc = themeDir + '/source/*.{sass,scss}';
-var sassFile = themeDir + '/source/dude-2019.scss';
+var sassFile = themeDir + '/source/dude-2020.scss';
 var cssDest = themeDir;
 
 /*
@@ -105,11 +105,11 @@ gulp.task('styles', function() {
     .pipe(pixrem())
     .pipe(cleancss({
       compatibility: 'ie11',
-      level: { 
+      level: {
         1: {
           tidyAtRules: true,
           cleanupCharsets: true,
-          specialComments: 0 
+          specialComments: 0
         }
       }
     }, function(details) {
